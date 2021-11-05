@@ -128,7 +128,7 @@ CREATE TABLE IF NOT EXISTS `SpotifyClone`.`plano` (
 
   `nome` VARCHAR(45) NOT NULL,
 
-  `preco` DOUBLE NOT NULL
+  `preco` DECIMAL(4,2) NOT NULL
 
 )
 
