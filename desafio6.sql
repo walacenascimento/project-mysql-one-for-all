@@ -7,6 +7,3 @@ ROUND(SUM(preco),2) AS faturamento_total
 FROM SpotifyClone.usuario AS U
 INNER JOIN SpotifyClone.plano AS P
 ON U.plano_id = P.plano_id;
-
--- SELECT * FROM faturamento_atual;
- 
